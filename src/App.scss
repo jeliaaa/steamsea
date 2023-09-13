@@ -1,0 +1,20 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    .site {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #f1e9f7;
+        min-height: 60dvh;
+        padding: 50px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .site{
+        width: 100% !important;
+    }
+}
