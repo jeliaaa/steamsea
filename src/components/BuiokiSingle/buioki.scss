@@ -1,5 +1,4 @@
 .bar {
-    margin-top: 20px;
     background-color: gainsboro;
     height: 40px;
     border-radius: 15px;
@@ -13,20 +12,52 @@
 }
 .container{
     ul{
+        display: flex;
+        flex-direction: column;
         list-style: none;
-        height: 80%;
+        gap: 15px;
+        margin: 0 !important;
+        padding: 0 !important;
         li{
             height: 24%;
             display: flex;
             align-items: center;
             justify-content: space-between;
             font-size: 4rem;
-            border-bottom: 1px solid gray;
+            border-radius: 15px;
+            border: none;
+            padding: 10px;
+            color: white;
             i{
                 margin-right: 100px;
-                color: aqua;
+                color: #fff;
                 font-size: 4rem;
             }
         }
+        .temp{
+            background-color: rgb(17, 14, 202);
+        }
+        .humidity{
+            background-color: rgb(33, 149, 179);
+        }
+        .water{
+            background-color: aqua;
+        }
+        .ecology{
+            background-color: rgb(7, 221, 18);
+        }
+        .pressure{
+            background-color: gray;
+        }
+    }
+}
+@media screen and (max-width : 650px) {
+    .ecology{
+        font-size: 2rem !important;
+    }
+}
+@media screen and (max-width: 530px) {
+    li{
+        font-size: 2rem !important;
     }
 }

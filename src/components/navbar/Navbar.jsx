@@ -36,12 +36,6 @@ const Navbar = () => {
                     <Link to={'/'}><img src={logo} alt="logo..." /></Link>
                 </div>
                 <div><h1>WAVEtoDay</h1></div>
-                <div>
-                    <select>
-                        <option>EN</option>
-                        <option>GE</option>
-                    </select>
-                </div>
             </div>
             <Nav variant="tabs" defaultActiveKey="/home">
                 <Nav.Item ref={navRef1} onClick={() => handleColor(navRef1)}>

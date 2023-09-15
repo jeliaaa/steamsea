@@ -1,5 +1,14 @@
 @import '../../variables.scss';
 
+.back{
+    font-family: "Mtavruli";
+    border-radius: 10px;
+    padding: 10px 15px;
+    color: rgb(14, 14, 70);
+    border: none;
+    background-color: #f1e9f7;
+    margin-bottom: 20px;
+}
 .dropnav {
     width: 45%;
     display: flex;
@@ -13,6 +22,7 @@
     height: 200px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     font-family: 'Mtavruli';
+
     a {
         position: absolute;
         width: 100%;
@@ -21,6 +31,7 @@
         top: 0;
         color: $color-gray;
         text-decoration: none;
+        z-index: 0;
 
         .upper {
             display: flex;
@@ -28,21 +39,25 @@
             align-items: center;
             padding: 20px 40px;
             height: 50%;
+
             .wave {
                 font-size: 5rem;
             }
-            .distance{
+
+            .distance {
                 display: flex;
                 flex-direction: column;
                 height: 100% !important;
-                h4{
+
+                h4 {
                     margin: 0 !important;
                     height: 50%;
                     display: flex;
                     align-items: center;
                     justify-content: center;
                 }
-                h3{
+
+                h3 {
                     margin: 0 !important;
                     height: 50%;
                     display: flex;
@@ -52,11 +67,25 @@
                 }
             }
         }
-        .bottom{
+
+        .bottom {
             padding: 0 40px;
             display: flex;
-            justify-content: center;
-            align-items: center ;
+            justify-content: space-between;
+            align-items: center;
+
+            .ecology_toggle {
+                z-index: 50;
+                border: none;
+                background-color: rgb(201, 36, 36);
+                padding: 5px 10px;
+                border-radius: 5px;
+                color: white;
+                font-family: 'Mtavruli';
+            }
+            .clear{
+                background-color: rgb(35, 221, 106)
+            }
         }
     }
 
@@ -70,45 +99,79 @@
         }
     }
 }
-@media screen and (max-width: 1250px) {
-    .upper{
+
+@media screen and (max-width: 1400px) {
+    .bottom {
         flex-direction: column;
-    }   
-    .bottom{
-        h3{
+
+        h3 {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+    }
+
+    .dropnav {
+        height: 220px !important;
+
+        a {
+            display: flex;
+            flex-direction: column;
+            gap: 20px !important
+        }
+    }
+}
+
+
+@media screen and (max-width: 1250px) {
+    .upper {
+        flex-direction: column;
+    }
+
+    .bottom {
+        h3 {
             text-align: center;
             word-wrap: break-word;
 
-            i{
+            i {
                 display: none !important;
             }
         }
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .bottom {
+        flex-direction: row !important;
+        gap: 5px;
+    }
+}
+
 @media screen and (max-width: 800px) {
-    .main{
+    .main {
         justify-content: center !important;
     }
-    .dropnav{
+
+    .dropnav {
         width: 80%;
     }
 }
+
 @media screen and (max-width: 500px) {
-    .dropnav{
-        .wave{
-            font-size: 1.5rem !important;
+    .dropnav {
+        .wave {
+            font-size: 3rem !important;
         }
-        h3{
+
+        h3 {
             font-size: 0.7rem !important;
         }
-        h4{
+
+        h4 {
             font-size: 0.7rem !important;
         }
     }
-    .site{
+
+    .site {
         padding: 0 !important;
-        .main{
-            padding: 0 !important;
-        }
     }
 }
