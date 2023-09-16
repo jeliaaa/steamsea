@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import { Nav } from 'react-bootstrap';
 import './Navbar.scss'
 import { Link, useLocation } from 'react-router-dom';
-import logo from '../../assets/g-removebg-preview.png'
+import logo from '../../assets/Our_logo.svg'
 const Navbar = () => {
     const location = useLocation();
     const navRef1 = useRef(null);
