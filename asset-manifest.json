@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/steamsea/static/css/main.bcce4b13.css",
-    "main.js": "/steamsea/static/js/main.46ee81bb.js",
+    "main.css": "/steamsea/static/css/main.5f14877b.css",
+    "main.js": "/steamsea/static/js/main.6338cab2.js",
     "static/js/787.7ce5aab5.chunk.js": "/steamsea/static/js/787.7ce5aab5.chunk.js",
     "static/media/bpg_extrasquare_mtavruli_2009.ttf": "/steamsea/static/media/bpg_extrasquare_mtavruli_2009.e30b36e07745bf1d0bfa.ttf",
-    "static/media/g-removebg-preview.png": "/steamsea/static/media/g-removebg-preview.fa224412b4d38b55812d.png",
+    "static/media/Our_logo.svg": "/steamsea/static/media/Our_logo.2b740f15e633546fd5d3a703bc1aa52b.svg",
     "index.html": "/steamsea/index.html",
-    "main.bcce4b13.css.map": "/steamsea/static/css/main.bcce4b13.css.map",
-    "main.46ee81bb.js.map": "/steamsea/static/js/main.46ee81bb.js.map",
+    "main.5f14877b.css.map": "/steamsea/static/css/main.5f14877b.css.map",
+    "main.6338cab2.js.map": "/steamsea/static/js/main.6338cab2.js.map",
     "787.7ce5aab5.chunk.js.map": "/steamsea/static/js/787.7ce5aab5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bcce4b13.css",
-    "static/js/main.46ee81bb.js"
+    "static/css/main.5f14877b.css",
+    "static/js/main.6338cab2.js"
   ]
 }
