@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react'
 import { Nav } from 'react-bootstrap';
 import './Navbar.scss'
 import { Link, useLocation } from 'react-router-dom';
-import logo from '../../assets/Our_logo.svg'
+import logo from '../../assets/Our_logo.png'
 const Navbar = () => {
     const location = useLocation();
     const navRef1 = useRef(null);
@@ -32,10 +32,11 @@ const Navbar = () => {
     return (
         <header>
             <div className='upper_header'>
-                <div className="logo_wrapper">
+                <div className="logo_wrapper"  style={{width:60, height:60}}>
                     <Link to={'/'}><img src={logo} alt="logo..." /></Link>
                 </div>
-                <div><h1>WAVEtoDay</h1></div>
+                <div><Link to={'https://jeliaaa.github.io/fishforum'} target='_blank' style={{textDecoration:"none", fontSize:'2rem'}}>ფორუმი</Link></div>
+                <div><h1>IFish</h1></div>
             </div>
             <Nav variant="tabs" defaultActiveKey="/home">
                 <Nav.Item ref={navRef1} onClick={() => handleColor(navRef1)}>
