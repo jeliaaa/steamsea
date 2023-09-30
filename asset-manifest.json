@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/steamsea/static/css/main.5f14877b.css",
-    "main.js": "/steamsea/static/js/main.6338cab2.js",
+    "main.js": "/steamsea/static/js/main.748de509.js",
     "static/js/787.7ce5aab5.chunk.js": "/steamsea/static/js/787.7ce5aab5.chunk.js",
     "static/media/bpg_extrasquare_mtavruli_2009.ttf": "/steamsea/static/media/bpg_extrasquare_mtavruli_2009.e30b36e07745bf1d0bfa.ttf",
-    "static/media/Our_logo.svg": "/steamsea/static/media/Our_logo.2b740f15e633546fd5d3a703bc1aa52b.svg",
+    "static/media/Our_logo.png": "/steamsea/static/media/Our_logo.5ea8c3fa8bf87eefffe4.png",
     "index.html": "/steamsea/index.html",
     "main.5f14877b.css.map": "/steamsea/static/css/main.5f14877b.css.map",
-    "main.6338cab2.js.map": "/steamsea/static/js/main.6338cab2.js.map",
+    "main.748de509.js.map": "/steamsea/static/js/main.748de509.js.map",
     "787.7ce5aab5.chunk.js.map": "/steamsea/static/js/787.7ce5aab5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f14877b.css",
-    "static/js/main.6338cab2.js"
+    "static/js/main.748de509.js"
   ]
 }
