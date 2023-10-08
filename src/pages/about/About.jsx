@@ -7,13 +7,10 @@ const About = () => {
     return (
         <Container style={{backgroundColor: '#fff', padding: 25}}>
             <div>
-                <p className='chven'>ჩვენს შესახებ : <br /> ნებულა არის გუნდი, რომელიც მუშაობს პროექტზე, რომლის ხარჯზეც გამოვიმუშავებთ ეკომეგობრული ელექტრო ენერგიის წყაროს, შევისწავლით ლოკალური ნაპირისა თუ წყლის მასების კლიმატურ და ზოგად მდგომარეობას და მივაწოდებთ ადგილობრივ მოსახლეობას. ჩვენ მიზანია რომ არამარტო ვიზრუნოთ გარემოზე არამედ შევატყობინოთ ხალხს თუ როგორ მიმდინარეობს ეს პროცესი. </p>
+                <p className='chven'>ჩვენს შესახებ : <br /> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum excepturi consequatur quaerat. Repudiandae maxime, a tempore omnis officiis possimus exercitationem tenetur aliquid atque?
+                 </p>
                 
-                <p className='partners'> პარტნიორები: <br /> ამ გამოწვევას მარტო არ შევჭიდებივართ, ჩვენი მხარდამჭერები გახლავთ: თბილისის კომუნიკაციების სკოლა, GITA, ბათუმის ტექნობარკი და ა.შ</p>
-
-                <div className="img">
-                    <img  src={commSchool} alt="" />                    
-                </div>
+                <p className='partners'> პარტნიორები: <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate error quasi, nesciunt nostrum consectetur perferendis at exercitationem corporis sapiente ipsa?</p
             </div>
         </Container>    
     )
