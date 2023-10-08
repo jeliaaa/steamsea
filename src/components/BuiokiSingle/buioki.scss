@@ -3,6 +3,7 @@
     height: 40px;
     border-radius: 15px;
     width: 90%;
+
     .completedBar {
         background-color: greenyellow;
         height: 100%;
@@ -10,15 +11,20 @@
         z-index: 1;
     }
 }
-.container{
-    ul{
+
+.container {
+    ul {
         display: flex;
         flex-direction: column;
+        align-items: center;
         list-style: none;
         gap: 15px;
         margin: 0 !important;
         padding: 0 !important;
-        li{
+
+        li {
+            width: 65%;
+            padding: 10px 40px;
             height: 24%;
             display: flex;
             align-items: center;
@@ -26,38 +32,45 @@
             font-size: 4rem;
             border-radius: 15px;
             border: none;
-            padding: 10px;
             color: white;
-            i{
+
+            i {
                 margin-right: 100px;
                 color: #fff;
                 font-size: 4rem;
             }
         }
-        .temp{
+
+        .temp {
             background-color: rgb(17, 14, 202);
         }
-        .humidity{
+
+        .humidity {
             background-color: rgb(33, 149, 179);
         }
-        .water{
+
+        .water {
             background-color: aqua;
         }
-        .ecology{
+
+        .ecology {
             background-color: rgb(7, 221, 18);
         }
-        .pressure{
+
+        .pressure {
             background-color: gray;
         }
     }
 }
+
 @media screen and (max-width : 650px) {
-    .ecology{
+    .ecology {
         font-size: 2rem !important;
     }
 }
+
 @media screen and (max-width: 530px) {
-    li{
+    li {
         font-size: 2rem !important;
     }
 }
