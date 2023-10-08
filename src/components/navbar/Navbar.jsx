@@ -32,11 +32,11 @@ const Navbar = () => {
     return (
         <header>
             <div className='upper_header'>
-                <div className="logo_wrapper"  style={{width:60, height:60}}>
-                    <Link to={'/'}><img src={logo} alt="logo..." /></Link>
+                <div className="logo_wrapper"  style={{width:100, height:100}}>
+                    <Link to={'/'} style={{width:'100%'}}><img src={logo} alt="logo..." style={{width:'100%'}} /></Link>
                 </div>
-                <div><Link to={'https://jeliaaa.github.io/fishforum'} target='_blank' style={{textDecoration:"none", fontSize:'2rem'}}>ფორუმი</Link></div>
-                <div><h1>IFish</h1></div>
+                <div><Link to={'https://nasa-gilt.vercel.app/'} target='_blank' style={{textDecoration:"none", fontSize:'2rem'}}>Informational Site</Link></div>
+                <div><h1>AquaCollect</h1></div>
             </div>
             <Nav variant="tabs" defaultActiveKey="/home">
                 <Nav.Item ref={navRef1} onClick={() => handleColor(navRef1)}>
