@@ -10,7 +10,7 @@ const About = () => {
                 <p className='chven'>ჩვენს შესახებ : <br /> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum excepturi consequatur quaerat. Repudiandae maxime, a tempore omnis officiis possimus exercitationem tenetur aliquid atque?
                  </p>
                 
-                <p className='partners'> პარტნიორები: <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate error quasi, nesciunt nostrum consectetur perferendis at exercitationem corporis sapiente ipsa?</p
+                <p className='partners'> პარტნიორები: <br /> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate error quasi, nesciunt nostrum consectetur perferendis at exercitationem corporis sapiente ipsa?</p>
             </div>
         </Container>    
     )
