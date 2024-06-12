@@ -35,8 +35,8 @@ const Navbar = () => {
                 <div className="logo_wrapper"  style={{width:100, height:100}}>
                     <Link to={'/'} style={{width:'100%'}}><img src={logo} alt="logo..." style={{width:'100%'}} /></Link>
                 </div>
-                <div><Link to={'https://nasa-gilt.vercel.app/'} target='_blank' style={{textDecoration:"none", fontSize:'2rem'}}>Informational Site</Link></div>
-                <div><h1>AquaCollect</h1></div>
+                <div><Link to={'https://nasa-gilt.vercel.app/'} target='_blank' style={{textDecoration:"none", fontSize:'2rem'}}>Forum</Link></div>
+                <div><h1>Starfish</h1></div>
             </div>
             <Nav variant="tabs" defaultActiveKey="/home">
                 <Nav.Item ref={navRef1} onClick={() => handleColor(navRef1)}>

@@ -4,7 +4,7 @@ import './footer.scss'
 const Footer = () => {
     return (
         <footer>
-            Made by NEBULA team &copy;
+            Made by Starfish team &copy;
         </footer>
     )
 }
