@@ -8,6 +8,7 @@ import Footer from "./components/footer/Footer";
 import About from "./pages/about/About";
 import ContactUs from "./pages/contact/ContactUs";
 import FishForum from "./FishForum/FishForum";
+import Gauges from "./pages/gauges/Gauges";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <div className="site">
         <Routes>
           <Route index path="/" element={<Main />} />
+          <Route index path="/gauges" element={<Gauges />} />
           <Route path="/FishForum" element={<FishForum />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<ContactUs />} />
